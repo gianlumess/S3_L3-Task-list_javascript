@@ -3,9 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
     <title>Task List</title>
   </head>
   <body>
-    <main></main>
+    <main>
+      <div id="container">
+        <h1>TO-DO LIST</h1>
+        <form id="todo-form">
+          <label for="task">Task</label>
+          <input id="task" type="text" placeholder="Inserisci task" />
+          <button>Invia</button>
+        </form>
+        <div id="box-list"></div>
+      </div>
+    </main>
+    <script src="/assets/javascript/script.js"></script>
   </body>
 </html>
